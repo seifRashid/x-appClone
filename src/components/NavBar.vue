@@ -14,7 +14,7 @@ const toggleSideBar=()=>{
   <div class="flex justify-between items-center p-4">
     <div class="flex items-center cursor-pointer">
       <span class="size-8 bg-gray-200 border rounded-full flex items-center justify-center"
-        ><img src="https://i.pravatar.cc/110" alt="profile picture" class="border rounded-full" @click="toggleSideBar()"
+        ><img src="https://i.pravatar.cc/110" alt="profile picture" class="border rounded-full" @click="toggleSideBar"
       /></span>
     </div>
     <div class="flex items-center cursor-pointer">

@@ -19,7 +19,7 @@ content.fetchData() // Fetch data when the component mounts
   <main class="flex justify-center w-screen">
     <div class="relative max-w-md bg-black h-100vh border rounded-xl">
       <Transition name="mac">
-        <SideBar v-show="content.showSideBar" class="mac-element" />
+        <SideBar v-show="content.showSideBar" class="absolute" />
       </Transition>
       <div class="flex flex-col justify-between w-[448px] h-screen hide-scrollbars">
         <div class="flex flex-col">
